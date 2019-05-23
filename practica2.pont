@@ -1,0 +1,217 @@
+; Sat May 11 18:38:01 CEST 2019
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot Name
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Vitaminas
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nutrientes
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Tipo+de+cocinado
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Peso
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Bebidas
+		(type INSTANCE)
+;+		(allowed-classes Bebida)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Cantidad
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot practica2_Class10033
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Ingredientes2
+		(type INSTANCE)
+;+		(allowed-classes Ingrediente)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Coccion
+;+		(comment "Como se cocina el plato, al horno etc")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Properties
+		(type INSTANCE)
+;+		(allowed-classes Propiedades)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Calorias
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Ingredientes
+		(type INSTANCE)
+;+		(allowed-classes Ingrediente)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write)))
+
+(defclass Ingrediente
+	(is-a USER)
+	(role concrete)
+	(single-slot Nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot Properties
+		(type INSTANCE)
+;+		(allowed-classes Propiedades)
+		(create-accessor read-write))
+	(single-slot Vitaminas
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Peso
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Calorias
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nutrientes
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Coccion
+;+		(comment "Como se cocina el plato, al horno etc")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Frutas
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Verduras
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Pescado
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Huevo
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Carne
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Cereales
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Frutos+secos
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Lacteo
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Legumbre
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Mariscos
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Azucar
+	(is-a Ingrediente)
+	(role concrete))
+
+(defclass Propiedades
+	(is-a USER)
+	(role concrete)
+	(single-slot Name
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Platos
+	(is-a USER)
+	(role concrete)
+	(single-slot Nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot Ingredientes
+		(type INSTANCE)
+;+		(allowed-classes Ingrediente)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot Bebidas
+		(type INSTANCE)
+;+		(allowed-classes Bebida)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Desayuno
+	(is-a Platos)
+	(role concrete))
+
+(defclass Comidas
+	(is-a Platos)
+	(role concrete))
+
+(defclass Postres
+	(is-a Platos)
+	(role concrete))
+
+(defclass Bebida
+	(is-a USER)
+	(role concrete)
+	(single-slot Nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Cantidad
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Ingredientes2
+		(type INSTANCE)
+;+		(allowed-classes Ingrediente)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Calorias
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Cliente
+	(is-a USER)
+	(role concrete)
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))

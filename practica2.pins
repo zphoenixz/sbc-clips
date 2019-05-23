@@ -1,0 +1,1466 @@
+; Sat May 11 18:38:01 CEST 2019
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([practica2_Class0] of  Propiedades
+
+	(Name "Proteinas"))
+
+([practica2_Class10000] of  Frutas
+
+	(Calorias 62)
+	(Nombre "Naranja")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class10001] of  Frutas
+
+	(Calorias 40)
+	(Nombre "Mandarina")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class10002] of  Bebida
+
+	(Calorias 70)
+	(Cantidad 100)
+	(Ingredientes2 [practica2_Class10003])
+	(Nombre "Zumo de piña"))
+
+([practica2_Class10003] of  Frutas
+
+	(Calorias 74)
+	(Nombre "Pinia")
+	(Peso 100)
+	(Properties [practica2_Class10036])
+	(Vitaminas 50))
+
+([practica2_Class10007] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class10018])
+	(Nombre "Manzana con agua"))
+
+([practica2_Class10008] of  Cereales
+
+	(Calorias 220)
+	(Nombre "Pasta")
+	(Peso 100)
+	(Properties [practica2_Class10036])
+	(Vitaminas 0))
+
+([practica2_Class10010] of  Cereales
+
+	(Calorias 204)
+	(Nombre "Arroz")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class10016] of  Bebida
+
+	(Calorias 0)
+	(Nombre "Agua"))
+
+([practica2_Class10018] of  Frutas
+
+	(Calorias 70)
+	(Nombre "Manzana")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class10019] of  Frutas
+
+	(Calorias 105)
+	(Nombre "Platano")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class10036] of  Propiedades
+
+	(Name "Hidratos de carbono"))
+
+([practica2_Class2] of  Propiedades
+
+	(Name "Grasas"))
+
+([practica2_Class20000] of  Carne
+
+	(Calorias 111)
+	(Coccion "A la plancha")
+	(Nombre "Filete de pollo a la plancha")
+	(Properties [practica2_Class0]))
+
+([practica2_Class20002] of  Frutas
+
+	(Calorias 49)
+	(Nombre "Fresas")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20003] of  Frutas
+
+	(Calorias 96)
+	(Nombre "Pera")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20004] of  Frutas
+
+	(Calorias 46)
+	(Nombre "Kiwi")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20005] of  Frutas
+
+	(Calorias 55)
+	(Nombre "Uvas")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20006] of  Frutas
+
+	(Calorias 17)
+	(Nombre "Limon")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20007] of  Frutas
+
+	(Calorias 85)
+	(Nombre "Mango")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20008] of  Frutas
+
+	(Calorias 53)
+	(Nombre "Melón")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20009] of  Frutas
+
+	(Calorias 46)
+	(Nombre "Sandia")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20010] of  Frutas
+
+	(Calorias 76)
+	(Nombre "Ciruela")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20011] of  Frutas
+
+	(Calorias 38)
+	(Nombre "Melocoton")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20012] of  Cereales
+
+	(Calorias 147)
+	(Nombre "Avena")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20013] of  Frutos+secos
+
+	(Calorias 176)
+	(Nombre "Avellanas")
+	(Properties [practica2_Class2]))
+
+([practica2_Class20014] of  Frutos+secos
+
+	(Calorias 183)
+	(Nombre "Nueces")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class20015] of  Frutos+secos
+
+	(Calorias 160)
+	(Nombre "Almendras")
+	(Properties [practica2_Class2]))
+
+([practica2_Class20017] of  Frutos+secos
+
+	(Calorias 159)
+	(Nombre "Cacahuete"))
+
+([practica2_Class30000] of  Cereales
+
+	(Calorias 127)
+	(Nombre "Galletas")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30001] of  Desayuno
+
+	(Bebidas [practica2_Class40002])
+	(Ingredientes [practica2_Class30000])
+	(Nombre "Galletas y leche"))
+
+([practica2_Class30002] of  Carne
+
+	(Calorias 135)
+	(Coccion "A la plancha")
+	(Nombre "Filete de ternera a la plancha")
+	(Properties [practica2_Class0]))
+
+([practica2_Class30003] of  Carne
+
+	(Calorias 136)
+	(Coccion "A la plancha")
+	(Nombre "Filete de cerdo a la plancha")
+	(Properties [practica2_Class0]))
+
+([practica2_Class30004] of  Carne
+
+	(Calorias 110)
+	(Coccion "Al horno")
+	(Nombre "Ternera al horno")
+	(Properties [practica2_Class0]))
+
+([practica2_Class30005] of  Verduras
+
+	(Calorias 84)
+	(Nombre "Alcachofa")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30006] of  Verduras
+
+	(Calorias 120)
+	(Nombre "Berenjena")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30008] of  Verduras
+
+	(Calorias 52)
+	(Nombre "Zanahoria")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30009] of  Verduras
+
+	(Calorias 35)
+	(Nombre "Calabacín")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30010] of  Verduras
+
+	(Calorias 20)
+	(Nombre "Espinacas")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30011] of  Verduras
+
+	(Calorias 11)
+	(Nombre "Lechuga")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30012] of  Verduras
+
+	(Calorias 32)
+	(Nombre "Cebolla")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30014] of  Verduras
+
+	(Calorias 140)
+	(Nombre "Patata")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30015] of  Verduras
+
+	(Calorias 25)
+	(Nombre "Tomate")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30016] of  Bebida
+
+	(Ingredientes2 [practica2_Class10000])
+	(Nombre "Zumo de Naranja"))
+
+([practica2_Class30017] of  Bebida
+
+	(Ingredientes2 [practica2_Class20011])
+	(Nombre "Zumo de melococtón"))
+
+([practica2_Class30018] of  Frutos+secos
+
+	(Calorias 155)
+	(Nombre "Anacardos")
+	(Properties [practica2_Class2]))
+
+([practica2_Class30021] of  Frutos+secos
+
+	(Calorias 125)
+	(Nombre "Maiz frito")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30022] of  Lacteo
+
+	(Calorias 72)
+	(Nombre "Yogurt")
+	(Properties [practica2_Class2]))
+
+([practica2_Class30023] of  Lacteo
+
+	(Calorias 120)
+	(Nombre "Leche")
+	(Properties [practica2_Class2]))
+
+([practica2_Class30024] of  Lacteo
+
+	(Calorias 84)
+	(Nombre "Queso")
+	(Properties [practica2_Class2]))
+
+([practica2_Class30025] of  Lacteo
+
+	(Calorias 16)
+	(Nombre "Nata")
+	(Properties [practica2_Class2]))
+
+([practica2_Class30026] of  Lacteo
+
+	(Calorias 102)
+	(Nombre "Mantequilla")
+	(Properties [practica2_Class2]))
+
+([practica2_Class30027] of  Legumbre
+
+	(Calorias 90)
+	(Nombre "Garbanzos")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30028] of  Legumbre
+
+	(Calorias 89)
+	(Nombre "Lentejas")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30029] of  Legumbre
+
+	(Calorias 195)
+	(Nombre "Judias pintas")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30030] of  Legumbre
+
+	(Calorias 105)
+	(Nombre "Judias blancas")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30031] of  Legumbre
+
+	(Calorias 62)
+	(Nombre "Soja")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class30032] of  Legumbre
+
+	(Calorias 117)
+	(Nombre "Guisantes")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class40001] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class10001])
+	(Nombre "Mandarina"))
+
+([practica2_Class40002] of  Bebida
+
+	(Ingredientes2 [practica2_Class30023])
+	(Nombre "Leche"))
+
+([practica2_Class40003] of  Desayuno
+
+	(Bebidas [practica2_Class30016])
+	(Ingredientes [practica2_Class10018])
+	(Nombre "Manzana con zumo de naranja"))
+
+([practica2_Class40004] of  Desayuno
+
+	(Bebidas [practica2_Class10002])
+	(Ingredientes [practica2_Class10000])
+	(Nombre "Naranja con zumo de piña"))
+
+([practica2_Class40005] of  Desayuno
+
+	(Bebidas [practica2_Class30017])
+	(Ingredientes [practica2_Class10000])
+	(Nombre "Naranja con zumo de melocoton"))
+
+([practica2_Class40006] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class10000])
+	(Nombre "Naranja con agua"))
+
+([practica2_Class40007] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class20011])
+	(Nombre "Melocoton con agua"))
+
+([practica2_Class40008] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class20007])
+	(Nombre "Mango con agua"))
+
+([practica2_Class40009] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class10001])
+	(Nombre "Mandarina con agua"))
+
+([practica2_Class40010] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30022]
+		[practica2_Class60002])
+	(Nombre "Yogurt con azucar y agua"))
+
+([practica2_Class40011] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40036]
+		[practica2_Class10018]
+		[practica2_Class30012]
+		[practica2_Class30008]
+		[practica2_Class30026])
+	(Nombre "Cerdo al horno con manzana"))
+
+([practica2_Class40013] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40041]
+		[practica2_Class30012]
+		[practica2_Class30014]
+		[practica2_Class30008])
+	(Nombre "Estofado de cerdo con patatas y zanahoria"))
+
+([practica2_Class40014] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40043]
+		[practica2_Class30012]
+		[practica2_Class30014]
+		[practica2_Class30008])
+	(Nombre "Estofado de pollo con patatas y zanahoria"))
+
+([practica2_Class40015] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40042]
+		[practica2_Class30012]
+		[practica2_Class30014]
+		[practica2_Class30008])
+	(Nombre "Estofado de ternera con patatas y zanahoria"))
+
+([practica2_Class40016] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30003]
+		[practica2_Class30014])
+	(Nombre "Filete de cerdo a la plancha con patatas"))
+
+([practica2_Class40017] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40037]
+		[practica2_Class20006]
+		[practica2_Class30014]
+		[practica2_Class30015])
+	(Nombre "Pollo al horno"))
+
+([practica2_Class40018] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30011]
+		[practica2_Class20015]
+		[practica2_Class30024])
+	(Nombre "Ensalada con almendras"))
+
+([practica2_Class40019] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30032]
+		[practica2_Class30012]
+		[practica2_Class30015]
+		[practica2_Class30008])
+	(Nombre "Guisantes en salsa"))
+
+([practica2_Class40022] of  Pescado
+
+	(Calorias 211)
+	(Nombre "Bacalao")
+	(Properties [practica2_Class2]))
+
+([practica2_Class40023] of  Pescado
+
+	(Calorias 143)
+	(Nombre "Atun")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40029] of  Pescado
+
+	(Calorias 104)
+	(Nombre "Lenguado")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40030] of  Pescado
+
+	(Calorias 125)
+	(Nombre "Lubina")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40031] of  Pescado
+
+	(Calorias 97)
+	(Nombre "Rape")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40032] of  Pescado
+
+	(Calorias 120)
+	(Nombre "Rodaballo")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40033] of  Pescado
+
+	(Calorias 83)
+	(Nombre "Salmon")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40034] of  Pescado
+
+	(Calorias 183)
+	(Nombre "Sardina")
+	(Properties [practica2_Class2]))
+
+([practica2_Class40036] of  Carne
+
+	(Calorias 139)
+	(Coccion "Al horno")
+	(Nombre "Cerdo al horno")
+	(Properties [practica2_Class2]))
+
+([practica2_Class40037] of  Carne
+
+	(Calorias 237)
+	(Coccion "Al horno")
+	(Nombre "Pollo al horno")
+	(Properties [practica2_Class2]))
+
+([practica2_Class40038] of  Carne
+
+	(Calorias 190)
+	(Coccion "Frito")
+	(Nombre "Filete de pollo frito")
+	(Properties [practica2_Class2]))
+
+([practica2_Class40039] of  Carne
+
+	(Calorias 123)
+	(Coccion "Frito")
+	(Nombre "Filete de cerdo frito")
+	(Properties [practica2_Class2]))
+
+([practica2_Class40040] of  Carne
+
+	(Calorias 206)
+	(Coccion "Frito")
+	(Nombre "Filete de ternera frito")
+	(Properties [practica2_Class2]))
+
+([practica2_Class40041] of  Carne
+
+	(Calorias 271)
+	(Coccion "Estofado")
+	(Nombre "Estofado de cerdo")
+	(Properties [practica2_Class2]))
+
+([practica2_Class40042] of  Carne
+
+	(Calorias 116)
+	(Coccion "Estofado")
+	(Nombre "Estofado de ternera")
+	(Properties [practica2_Class2]))
+
+([practica2_Class40043] of  Carne
+
+	(Calorias 306)
+	(Nombre "Estofado de pollo")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class40044] of  Mariscos
+
+	(Calorias 63)
+	(Nombre "Almeja")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40045] of  Mariscos
+
+	(Calorias 73)
+	(Nombre "Berberecho")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40046] of  Mariscos
+
+	(Calorias 75)
+	(Nombre "Bogavante")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40047] of  Mariscos
+
+	(Calorias 92)
+	(Nombre "Calamar")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40051] of  Mariscos
+
+	(Calorias 105)
+	(Nombre "Gamba")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40052] of  Mariscos
+
+	(Calorias 175)
+	(Nombre "Langostino")
+	(Properties [practica2_Class2]))
+
+([practica2_Class40053] of  Mariscos
+
+	(Calorias 86)
+	(Nombre "Mejillon")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40055] of  Mariscos
+
+	(Calorias 58)
+	(Nombre "Ostras")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40056] of  Mariscos
+
+	(Calorias 82)
+	(Nombre "Pulpo")
+	(Properties [practica2_Class0]))
+
+([practica2_Class40057] of  Mariscos
+
+	(Calorias 79)
+	(Nombre "Sepia")
+	(Properties [practica2_Class0]))
+
+([practica2_Class50002] of  Cliente
+
+	(nombre "Cliente1"))
+
+([practica2_Class50020] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30028]
+		[practica2_Class10010]
+		[practica2_Class30012]
+		[practica2_Class30008])
+	(Nombre "Lentejas con arroz"))
+
+([practica2_Class50021] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40023]
+		[practica2_Class30012]
+		[practica2_Class30006]
+		[practica2_Class60044]
+		[practica2_Class60043]
+		[practica2_Class30008])
+	(Nombre "Atún con verduras"))
+
+([practica2_Class50022] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40034]
+		[practica2_Class30014])
+	(Nombre "Sardina con patatas"))
+
+([practica2_Class50023] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40022]
+		[practica2_Class30012]
+		[practica2_Class30015])
+	(Nombre "Bacalao con tomate"))
+
+([practica2_Class50024] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40033]
+		[practica2_Class30014]
+		[practica2_Class30012]
+		[practica2_Class60043]
+		[practica2_Class30015])
+	(Nombre "Salmon al horno"))
+
+([practica2_Class50026] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40031]
+		[practica2_Class30012]
+		[practica2_Class30014])
+	(Nombre "Rape a la gallega"))
+
+([practica2_Class50028] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10008]
+		[practica2_Class30015])
+	(Nombre "Pasta con tomate"))
+
+([practica2_Class50029] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30011]
+		[practica2_Class30015]
+		[practica2_Class60067]
+		[practica2_Class60044]
+		[practica2_Class60043]
+		[practica2_Class30024])
+	(Nombre "Ensalada griega con queso"))
+
+([practica2_Class50030] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40047]
+		[practica2_Class20006])
+	(Nombre "Calamares con limon"))
+
+([practica2_Class50031] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30027]
+		[practica2_Class30012]
+		[practica2_Class30014]
+		[practica2_Class60044]
+		[practica2_Class60043])
+	(Nombre "Estofado de garbanzos con verduras"))
+
+([practica2_Class50032] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40039]
+		[practica2_Class30014])
+	(Nombre "Filete de cerdo frito con patatas"))
+
+([practica2_Class50033] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10008]
+		[practica2_Class30026])
+	(Nombre "Pasta con mantequilla"))
+
+([practica2_Class50034] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40056]
+		[practica2_Class30014]
+		[practica2_Class30012])
+	(Nombre "Pulpo a la gallega"))
+
+([practica2_Class60002] of  Azucar
+
+	(Calorias 16)
+	(Nombre "Cucharada de azucar")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class60003] of  Huevo
+
+	(Calorias 89)
+	(Nombre "Huevo frito")
+	(Properties [practica2_Class2]))
+
+([practica2_Class60004] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30022]
+		[practica2_Class60002])
+	(Nombre "Yogurt sin azucar y agua"))
+
+([practica2_Class60005] of  Cereales
+
+	(Calorias 80)
+	(Nombre "Pan")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class60006] of  Cereales
+
+	(Calorias 69)
+	(Nombre "Pan integral")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class60007] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class60005]
+		[practica2_Class30026])
+	(Nombre "Tostada de pan con mantequilla y agua"))
+
+([practica2_Class60010] of  Desayuno
+
+	(Bebidas [practica2_Class30016])
+	(Ingredientes [practica2_Class30000])
+	(Nombre "Galletas y zumo de naranja"))
+
+([practica2_Class60011] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class20012]
+		[practica2_Class30022])
+	(Nombre "Copos de avena con yogur y agua"))
+
+([practica2_Class60012] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class60006]
+		[practica2_Class30024]
+		[practica2_Class60013])
+	(Nombre "Tostada de pan integral con queso y aguacate y agua"))
+
+([practica2_Class60013] of  Frutas
+
+	(Calorias 45)
+	(Nombre "Aguacate")
+	(Properties [practica2_Class2]))
+
+([practica2_Class60014] of  Desayuno
+
+	(Bebidas [practica2_Class30016])
+	(Ingredientes
+		[practica2_Class30024]
+		[practica2_Class60013]
+		[practica2_Class60006])
+	(Nombre "Tostada de pan integral con queso y aguacate y zumo de naranja"))
+
+([practica2_Class60015] of  Desayuno
+
+	(Bebidas [practica2_Class10002])
+	(Ingredientes
+		[practica2_Class30024]
+		[practica2_Class60013]
+		[practica2_Class60006])
+	(Nombre "Tostada de pan integral con queso y aguacate y zumo de piña"))
+
+([practica2_Class60016] of  Desayuno
+
+	(Bebidas [practica2_Class30017])
+	(Ingredientes
+		[practica2_Class30024]
+		[practica2_Class60013]
+		[practica2_Class60006])
+	(Nombre "Tostada de pan integral con queso y aguacate y zumo de melocoton"))
+
+([practica2_Class60017] of  Desayuno
+
+	(Bebidas [practica2_Class30016])
+	(Ingredientes
+		[practica2_Class20012]
+		[practica2_Class30022])
+	(Nombre "Copos de avena con yogur y zumo de naranja"))
+
+([practica2_Class60018] of  Desayuno
+
+	(Bebidas [practica2_Class10002])
+	(Ingredientes
+		[practica2_Class20012]
+		[practica2_Class30022])
+	(Nombre "Copos de avena con yogur y zumo de piña"))
+
+([practica2_Class60019] of  Desayuno
+
+	(Bebidas [practica2_Class30017])
+	(Ingredientes
+		[practica2_Class20012]
+		[practica2_Class30022])
+	(Nombre "Copos de avena con yogur y zumo de meloocoton"))
+
+([practica2_Class60020] of  Desayuno
+
+	(Bebidas [practica2_Class30017])
+	(Ingredientes [practica2_Class30000])
+	(Nombre "Galletas y zumo de melocoton"))
+
+([practica2_Class60021] of  Desayuno
+
+	(Bebidas [practica2_Class10002])
+	(Ingredientes [practica2_Class30000])
+	(Nombre "Galletas y zumo de piña"))
+
+([practica2_Class60022] of  Desayuno
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class60005]
+		[practica2_Class40023])
+	(Nombre "Sandwich de atún y agua"))
+
+([practica2_Class60023] of  Desayuno
+
+	(Bebidas [practica2_Class30017])
+	(Ingredientes
+		[practica2_Class60005]
+		[practica2_Class40023])
+	(Nombre "Sandwich de atún y zumo de melocoton"))
+
+([practica2_Class60024] of  Desayuno
+
+	(Bebidas [practica2_Class10002])
+	(Ingredientes
+		[practica2_Class60005]
+		[practica2_Class40023])
+	(Nombre "Sandwich de atún y zumo de piña"))
+
+([practica2_Class60025] of  Desayuno
+
+	(Bebidas [practica2_Class30016])
+	(Ingredientes
+		[practica2_Class60005]
+		[practica2_Class40023])
+	(Nombre "Sandwich de atún y zumo de naranja"))
+
+([practica2_Class60026] of  Bebida
+
+	(Calorias 2)
+	(Ingredientes2 [practica2_Class30023])
+	(Nombre "Cafe"))
+
+([practica2_Class60031] of  Desayuno
+
+	(Bebidas [practica2_Class30016])
+	(Ingredientes
+		[practica2_Class60005]
+		[practica2_Class30026])
+	(Nombre "Tostada de pan con mantequilla y zumo de naranja"))
+
+([practica2_Class60032] of  Desayuno
+
+	(Bebidas [practica2_Class10002])
+	(Ingredientes
+		[practica2_Class60005]
+		[practica2_Class30026])
+	(Nombre "Tostada de pan con mantequilla y zumo de piña"))
+
+([practica2_Class60033] of  Desayuno
+
+	(Bebidas [practica2_Class30017])
+	(Ingredientes
+		[practica2_Class60005]
+		[practica2_Class30026])
+	(Nombre "Tostada de pan con mantequilla y zumo de melocoton"))
+
+([practica2_Class60034] of  Desayuno
+
+	(Bebidas [practica2_Class60026])
+	(Ingredientes
+		[practica2_Class30024]
+		[practica2_Class60013]
+		[practica2_Class60006])
+	(Nombre "Tostada de pan integral con queso y aguacate y cafe sin azucar"))
+
+([practica2_Class60035] of  Desayuno
+
+	(Bebidas [practica2_Class60026])
+	(Ingredientes
+		[practica2_Class30024]
+		[practica2_Class60013]
+		[practica2_Class60006]
+		[practica2_Class60002])
+	(Nombre "Tostada de pan integral con queso y aguacate y cafe con azucar"))
+
+([practica2_Class60036] of  Desayuno
+
+	(Bebidas [practica2_Class60026])
+	(Ingredientes [practica2_Class30000])
+	(Nombre "Galletas y cafe sin azucar"))
+
+([practica2_Class60037] of  Desayuno
+
+	(Bebidas [practica2_Class60026])
+	(Ingredientes
+		[practica2_Class30000]
+		[practica2_Class60002])
+	(Nombre "Galletas y cafe con azucar"))
+
+([practica2_Class60038] of  Desayuno
+
+	(Bebidas [practica2_Class60026])
+	(Ingredientes
+		[practica2_Class60005]
+		[practica2_Class30026])
+	(Nombre "Tostada de pan con mantequilla y cafe sin azucar"))
+
+([practica2_Class60039] of  Desayuno
+
+	(Bebidas [practica2_Class60026])
+	(Ingredientes
+		[practica2_Class60005]
+		[practica2_Class30026]
+		[practica2_Class60002])
+	(Nombre "Tostada de pan con mantequilla y cafe con azucar"))
+
+([practica2_Class60041] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10010]
+		[practica2_Class40051]
+		[practica2_Class30008]
+		[practica2_Class30012]
+		[practica2_Class60043])
+	(Nombre "Arroz con gambas y verduras"))
+
+([practica2_Class60042] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10010]
+		[practica2_Class20000])
+	(Nombre "Arroz con pollo"))
+
+([practica2_Class60043] of  Verduras
+
+	(Calorias 24)
+	(Nombre "Pimiento verde")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class60044] of  Verduras
+
+	(Calorias 31)
+	(Nombre "Pimiento rojo")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class60045] of  Verduras
+
+	(Calorias 45)
+	(Nombre "Pimiento amarillo")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class60048] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10010]
+		[practica2_Class30002])
+	(Nombre "Arroz con ternera"))
+
+([practica2_Class60049] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10010]
+		[practica2_Class20000]
+		[practica2_Class30012]
+		[practica2_Class60043]
+		[practica2_Class30008])
+	(Nombre "Arroz con pollo y verduras"))
+
+([practica2_Class60050] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10010]
+		[practica2_Class30002]
+		[practica2_Class30012]
+		[practica2_Class60043]
+		[practica2_Class30008])
+	(Nombre "Arroz con ternera y verduras"))
+
+([practica2_Class60053] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10010]
+		[practica2_Class30015]
+		[practica2_Class60055])
+	(Nombre "Arroz a la cubana con tortilla"))
+
+([practica2_Class60054] of  Huevo
+
+	(Calorias 78)
+	(Nombre "Huevo hervido")
+	(Properties [practica2_Class2]))
+
+([practica2_Class60055] of  Huevo
+
+	(Calorias 93)
+	(Nombre "Tortilla")
+	(Properties [practica2_Class2]))
+
+([practica2_Class60056] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10010]
+		[practica2_Class30015]
+		[practica2_Class60003])
+	(Nombre "Arroz a la cubana con huevo frito"))
+
+([practica2_Class60057] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10010]
+		[practica2_Class40051]
+		[practica2_Class40053]
+		[practica2_Class30012]
+		[practica2_Class40047]
+		[practica2_Class30032]
+		[practica2_Class60044])
+	(Nombre "Paella de marisco"))
+
+([practica2_Class60058] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10010]
+		[practica2_Class30012]
+		[practica2_Class60060]
+		[practica2_Class40043])
+	(Nombre "Paella de pollo"))
+
+([practica2_Class60059] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10010]
+		[practica2_Class30012]
+		[practica2_Class30032]
+		[practica2_Class60044]
+		[practica2_Class60043]
+		[practica2_Class30005])
+	(Nombre "Paella de verduras"))
+
+([practica2_Class60060] of  Verduras
+
+	(Calorias 31)
+	(Nombre "Judias verdes")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class60061] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40022]
+		[practica2_Class30012]
+		[practica2_Class30023]
+		[practica2_Class30032])
+	(Nombre "Bacalao con guisantes"))
+
+([practica2_Class60062] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40022]
+		[practica2_Class30012]
+		[practica2_Class30015]
+		[practica2_Class30027])
+	(Nombre "Bacalao con garbanzos"))
+
+([practica2_Class60064] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30011]
+		[practica2_Class30027]
+		[practica2_Class40023]
+		[practica2_Class60044]
+		[practica2_Class30015]
+		[practica2_Class60054])
+	(Nombre "Ensalada de garbanzos"))
+
+([practica2_Class60065] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40023]
+		[practica2_Class60044]
+		[practica2_Class60054]
+		[practica2_Class30015]
+		[practica2_Class30008])
+	(Nombre "Ensalada de pasta"))
+
+([practica2_Class60066] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30011]
+		[practica2_Class40023]
+		[practica2_Class30015])
+	(Nombre "Ensalada mixta"))
+
+([practica2_Class60067] of  Verduras
+
+	(Calorias 16)
+	(Nombre "Pepino")
+	(Properties [practica2_Class10036]))
+
+([practica2_Class70002] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class20011])
+	(Nombre "Melocotón"))
+
+([practica2_Class70003] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class10018])
+	(Nombre "Manzana"))
+
+([practica2_Class70004] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class10018])
+	(Nombre "Manzana"))
+
+([practica2_Class70005] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class20004])
+	(Nombre "Kiwi"))
+
+([practica2_Class70006] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class20007])
+	(Nombre "Mango"))
+
+([practica2_Class70007] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class20005])
+	(Nombre "Uvas"))
+
+([practica2_Class70008] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class10000])
+	(Nombre "Naranja"))
+
+([practica2_Class70009] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class20003])
+	(Nombre "Pera"))
+
+([practica2_Class70010] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class10019])
+	(Nombre "Platano"))
+
+([practica2_Class70011] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class10003])
+	(Nombre "Piña"))
+
+([practica2_Class70012] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class20002])
+	(Nombre "Fresas"))
+
+([practica2_Class70013] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class20008])
+	(Nombre "Melon"))
+
+([practica2_Class70014] of  Postres
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes [practica2_Class20009])
+	(Nombre "Sandia"))
+
+([practica2_Class70016] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40033]
+		[practica2_Class30011]
+		[practica2_Class30024]
+		[practica2_Class20014])
+	(Nombre "Ensalada de salmon y queso"))
+
+([practica2_Class70017] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class10008]
+		[practica2_Class30025]
+		[practica2_Class30024])
+	(Nombre "Pasta con nata"))
+
+([practica2_Class70018] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30009]
+		[practica2_Class30012]
+		[practica2_Class60044]
+		[practica2_Class60043]
+		[practica2_Class30008]
+		[practica2_Class10008]
+		[practica2_Class30015])
+	(Nombre "Pasta con verduras"))
+
+([practica2_Class70019] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30015]
+		[practica2_Class40023]
+		[practica2_Class10008])
+	(Nombre "Pasta con atun"))
+
+([practica2_Class70020] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30012]
+		[practica2_Class30014]
+		[practica2_Class60055])
+	(Nombre "Tortilla de patatas"))
+
+([practica2_Class70021] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30009]
+		[practica2_Class30012]
+		[practica2_Class60044]
+		[practica2_Class60043]
+		[practica2_Class30008]
+		[practica2_Class10008]
+		[practica2_Class30015]
+		[practica2_Class20000])
+	(Nombre "Pasta con verduras y pollo"))
+
+([practica2_Class70022] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30006]
+		[practica2_Class30009]
+		[practica2_Class30012]
+		[practica2_Class60044]
+		[practica2_Class60043]
+		[practica2_Class60055])
+	(Nombre "Tortilla de verduras"))
+
+([practica2_Class70023] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30010]
+		[practica2_Class60055])
+	(Nombre "Tortilla de espinacas"))
+
+([practica2_Class70024] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class60055]
+		[practica2_Class40022]
+		[practica2_Class60043]
+		[practica2_Class30012])
+	(Nombre "Tortilla de bacalao"))
+
+([practica2_Class70025] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30012]
+		[practica2_Class30014]
+		[practica2_Class60043]
+		[practica2_Class30015]
+		[practica2_Class30008]
+		[practica2_Class30030])
+	(Nombre "Judias blancas estofadas"))
+
+([practica2_Class70026] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30014]
+		[practica2_Class60060])
+	(Nombre "Judias verdes con patatas"))
+
+([practica2_Class70027] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class30006]
+		[practica2_Class20000]
+		[practica2_Class30015]
+		[practica2_Class30012]
+		[practica2_Class30025]
+		[practica2_Class30012]
+		[practica2_Class60043]
+		[practica2_Class30024])
+	(Nombre "Berenjena rellena de carne"))
+
+([practica2_Class70028] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40029]
+		[practica2_Class30009]
+		[practica2_Class30012]
+		[practica2_Class60044]
+		[practica2_Class30015]
+		[practica2_Class30008])
+	(Nombre "Lenguado al horno con verduras"))
+
+([practica2_Class70029] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class20006]
+		[practica2_Class30012]
+		[practica2_Class30014])
+	(Nombre "Lubina al horno con limon"))
+
+([practica2_Class70030] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40032]
+		[practica2_Class30014]
+		[practica2_Class30012])
+	(Nombre "Rodaballo al horno"))
+
+([practica2_Class70031] of  Comidas
+
+	(Bebidas [practica2_Class10016])
+	(Ingredientes
+		[practica2_Class40031]
+		[practica2_Class30012]
+		[practica2_Class40044]
+		[practica2_Class40051])
+	(Nombre "Rape con salsa de gambas y almejas"))
